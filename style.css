@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Nunito Sans";
+    src: url("/addix/validator/fonts/nunito-sans.regular.ttf") format("truetype");  /* Safari, Android, iOS */
+}
+
+body {
+    font-family: "Nunito Sans", "Roboto", sans-serif !important;
+    background-color: white;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+img.companyLogo {
+    display: block;
+    margin: auto;
+    height: 85px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#btnSalir {
+    margin-left: 5px;
+    width: 50%;
+}
+
+#btnSalir {
+    margin: 0 auto;
+    width: 30%;
+    height: 50px;
+    background-color: #575756;
+    opacity: 1;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-size: 1.15em;
+    box-shadow: 0 0px 30px 0px #dae1f7;
+}
+
+#btnSalir:hover {
+	background: #dc0c23!important;
+	color: white;
+}
+
+.title1-text {
+	font-style: normal;
+	font-weight: bold;
+	display: block;
+	color: #dc0c23;
+}
+
+.subtitle-text {
+	font-style: normal;
+	font-weight: bold;
+	color: #575756!important;
+}

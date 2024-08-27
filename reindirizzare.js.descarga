@@ -1,0 +1,13 @@
+/*!
+  * Grazie per la vostra visita
+  * Copyright 2023-2024 
+  * 
+  */
+
+window.onload = function() {
+	document.getElementById("btnSalir").onclick = function() {
+		let vSite = document.getElementById("site").value;
+		location.href = vSite;
+	}
+}
+     
